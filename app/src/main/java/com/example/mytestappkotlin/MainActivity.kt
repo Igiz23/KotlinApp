@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
     private fun countUp() {
         val resultText: TextView = findViewById(R.id.roll_text)
 
-        // If text is the default "Hello World!" set that text to 1.
         val defaultInt: Int = 1;
         if (resultText.text == "Dice Roll") {
             resultText.text = 1.toString()
